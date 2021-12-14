@@ -41,9 +41,11 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 5. Open another `Command Prompt` and Run it as Administrator (in Windows)  and navigate to the same directory `ethereum-react-simple-tic-tac-toe-dapp`
 6. In the second Command prompt, run the *Truffle Development network* by `truffle develop`. Make sure you have installed <a href="https://www.trufflesuite.com/">Ethereum Truffle</a> in your macheine 
 7. In the second Command prompt, deploy the blockchain by `truffle migrate`
-8. Now in a Web browser navigate to `http://localhost:8081` and enjoy the TicTacToe game
-9. In the browser you have to <b>add</b> the <a href="https://metamask.io/">Metamask Addon</a> to talk with the Blockchain
-10. If the game ended and you want to play it again, in the second command prompt hit `Ctrl + C` and then run `truffle migrate --reset`
+8. Now in a Web browser navigate to `http://localhost:8081/Address` and enter your eth address and an automated computer's eth address
+9. Click on "Go to Game" after entering the addresses in previous screen, it will navigate to `http://localhost:8081/Game` and it will deduct 10 ether from yours and computer's eth account
+10. Once you are done playing the Tic tac toe game, the bounty of 20 eth is sent to the winner's address 
+11. In the browser you have to <b>add</b> the <a href="https://metamask.io/">Metamask Addon</a> to talk with the Blockchain
+12. If the game ended and you want to play it again, in the second command prompt hit `Ctrl + C` and then run `truffle migrate --reset`
 
  
 *tested with <img src="screenshots/chrome.png" width="20px" title="Google Chrome">Google Chrome v70 and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">Mozilla Firefox Developer Editon*  
